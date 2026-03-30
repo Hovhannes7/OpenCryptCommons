@@ -2,7 +2,8 @@
 
 **Post-Quantum Selective Disclosure and Threshold Trust Toolkit for Internet Services**
 
-> Project status: pre-award placeholder repository for an open-source cryptographic commons toolkit.
+This project is licensed under the Apache License 2.0.  
+See the [LICENSE](LICENSE) file for details.
 
 OpenCryptCommons is a planned open-source project focused on practical cryptographic building blocks for the open internet.
 
