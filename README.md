@@ -22,15 +22,19 @@ The initial development phase is expected to focus on a small, standards-aware, 
 ## Planned first-phase goals
 
 ### 1. Core trust toolkit
+
 A memory-safe core library exposing a compact API for privacy-preserving credential handling and threshold authorization flows.
 
 ### 2. CLI and reference flow
+
 Command-line tooling and a minimal reference implementation to help developers test and evaluate the toolkit.
 
 ### 3. Post-quantum-ready abstractions
+
 A practical integration layer for crypto-agile migration toward post-quantum-capable trust components.
 
 ### 4. One real integration example
+
 A demonstrator showing how the toolkit can be used in a real internet-facing service or protocol.
 
 ## Why this project
