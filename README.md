@@ -1,9 +1,14 @@
+...
+
+A GitHub `README.md` file must contain **only the markdown content itself**, not the outer code fence and not the `id="..."`.
+
+Paste only this, starting from `# OpenCryptCommons` and ending at the last sentence:
+
 # OpenCryptCommons
 
 **Post-Quantum Selective Disclosure and Threshold Trust Toolkit for Internet Services**
 
-This project is licensed under the Apache License 2.0.  
-See the [LICENSE](LICENSE) file for details.
+> Project status: pre-award placeholder repository for a planned open-source cryptography project.
 
 OpenCryptCommons is a planned open-source project focused on practical cryptographic building blocks for the open internet.
 
@@ -76,9 +81,29 @@ Final technical decisions will be documented publicly as the roadmap is refined.
 
 Planned structure:
 
-```text
-/docs      project notes, roadmap, threat model, design docs
-/crates    Rust crates and reusable libraries
-/examples  example integrations and demos
-/cli       command-line tools
-/tests     interoperability and regression tests
+    /docs      project notes, roadmap, threat model, design docs
+    /crates    Rust crates and reusable libraries
+    /examples  example integrations and demos
+    /cli       command-line tools
+    /tests     interoperability and regression tests
+
+## License
+
+This project is licensed under the Apache License 2.0.  
+See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Project lead: Hovhannes Adajyan
+
+For early interest, collaboration, or review discussions, please use GitHub Issues.
+
+## Note
+
+This placeholder repository exists to provide public project visibility, document intent, and prepare for open development.
+
+Implementation code, milestones, and documentation will be added as the project moves into active development.
+
+Two common mistakes:
+- pasting the triple backticks
+- pasting the `id="..."` text
