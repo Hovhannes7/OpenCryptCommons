@@ -1,5 +1,3 @@
-...
-
 A GitHub `README.md` file must contain **only the markdown content itself**, not the outer code fence and not the `id="..."`.
 
 Paste only this, starting from `# OpenCryptCommons` and ending at the last sentence:
