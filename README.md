@@ -2,6 +2,8 @@
 
 **Post-Quantum Selective Disclosure and Threshold Trust Toolkit for Internet Services**
 
+> Project status: pre-award placeholder repository for an open-source cryptographic commons toolkit.
+
 OpenCryptCommons is a planned open-source project focused on practical cryptographic building blocks for the open internet.
 
 The project is being prepared as a compact, reusable toolkit for:
@@ -13,11 +15,9 @@ The project is being prepared as a compact, reusable toolkit for:
 
 ## Status
 
-**Project status: pre-award / repository placeholder**
+This repository is currently a public placeholder for the project scope, technical roadmap, and future implementation work.
 
-This repository is currently a public placeholder for the upcoming project scope, technical roadmap, and future implementation work.
-
-The initial development phase is intended to focus on a small, standards-aware, open-source trust layer rather than a monolithic platform.
+The initial development phase is expected to focus on a small, standards-aware, open-source trust layer rather than a monolithic platform.
 
 ## Planned first-phase goals
 
@@ -25,7 +25,7 @@ The initial development phase is intended to focus on a small, standards-aware, 
 A memory-safe core library exposing a compact API for privacy-preserving credential handling and threshold authorization flows.
 
 ### 2. CLI and reference flow
-Command-line tooling and a minimal reference implementation to help developers test and understand the toolkit.
+Command-line tooling and a minimal reference implementation to help developers test and evaluate the toolkit.
 
 ### 3. Post-quantum-ready abstractions
 A practical integration layer for crypto-agile migration toward post-quantum-capable trust components.
@@ -65,34 +65,15 @@ The implementation direction currently under exploration includes:
 - threshold trust patterns
 - post-quantum-ready migration support
 
-Final technical decisions will be documented publicly as the project roadmap is refined.
+Final technical decisions will be documented publicly as the roadmap is refined.
 
 ## Repository roadmap
 
 Planned structure:
 
 ```text
-/docs           project notes, roadmap, threat model, design docs
-/crates         Rust crates and reusable libraries
-/examples       example integrations and demos
-/cli            command-line tools
-/tests          interoperability and regression tests
-```
-
-## License
-
-Planned license: **Apache-2.0** or **Apache-2.0 / MIT dual license**.
-
-A final license decision will be made before implementation begins.
-
-## Contact
-
-Project lead: Hovhannes Adajyan
-
-For early interest, collaboration, or review discussions, please use GitHub Issues once they are enabled.
-
-## Note
-
-This placeholder page exists to provide public project visibility, document intent, and prepare for open development.
-
-Implementation code, milestones, and documentation will be added as the project moves into active development.
+/docs      project notes, roadmap, threat model, design docs
+/crates    Rust crates and reusable libraries
+/examples  example integrations and demos
+/cli       command-line tools
+/tests     interoperability and regression tests
